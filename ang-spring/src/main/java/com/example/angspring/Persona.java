@@ -3,7 +3,7 @@ package com.example.angspring;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="persona")
+@Table(name="personas")
 public class Persona {
     @Id
     @Column

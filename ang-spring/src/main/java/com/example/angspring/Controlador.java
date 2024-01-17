@@ -8,8 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@CrossOrigin(origins="http://localhost:4200",maxAge = 3600)
 @RestController
+@CrossOrigin(origins="http://localhost:4200")
+        //,maxAge = 3600)
 @RequestMapping({"/personas"})
 public class Controlador {
 
